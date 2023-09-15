@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel
 from database import db
+from pydantic import BaseModel
 from models.user import User  # Import your User model
 from passlib.hash import bcrypt  # Import the password hashing library
 

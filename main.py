@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from registration import router as registration_router
+from services.registration import router as registration_router
 from database import db
 
 app = FastAPI()

@@ -1,5 +1,5 @@
 from peewee import CharField, TextField
-from base_model import BaseModel
+from models.base_model import BaseModel
 from playhouse.postgres_ext import BinaryUUIDField
 from passlib.hash import bcrypt_sha256
 from database import db
