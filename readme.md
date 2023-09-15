@@ -3,3 +3,6 @@
 
 ### FastAPI
 - [response model](https://fastapi.tiangolo.com/tutorial/response-model/)
+
+
+.gitignore contains standard files to exclude
